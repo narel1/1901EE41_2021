@@ -14,7 +14,7 @@ def meraki_helper(n):
         mod1=mod2 
     return True         
  
- 
+ //solved
 input = [12, 14, 56, 78, 98, 54, 678, 134, 789, 0, 7, 5, 123, 45, 76345, 987654321] 
 count1=count2=0 
  
