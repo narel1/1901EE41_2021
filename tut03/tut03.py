@@ -44,6 +44,6 @@ x = f.readrectilinear()                      #reading the 1st rectilinear of the
 column_vheads=x.split(',')         #spliting wrt comma and creating a list of vheading coloumns 
 for rectilinear in f: 
     rectilinear=rectilinear.split(',')  #spliting with respect to comma and creating a list of coloumns of the current row 
-    output_individual_roll(rectilinear, column_vheads)    #implementing subtask -1 
+    output_individual_roll(rectilinear, column_vheads)    #implementing subtask bc(beacuse directory)-1 
     output_by_subject(rectilinear, column_vheads)         #implementing subtask-2 
 f.close()
